@@ -1,0 +1,22 @@
+{
+  "name": "public_transport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx watchify main.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "marker-animate-unobtrusive": "^0.2.8",
+    "protobufjs": "^6.10.2",
+    "protocol-buffers": "^4.2.0",
+    "protocol-buffers-encodings": "^1.1.1"
+  },
+  "devDependencies": {
+    "watchify": "^4.0.0"
+  }
+}
